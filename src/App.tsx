@@ -25,7 +25,7 @@ function App() {
         <Route path="/logout" component={Logout} />
       </Content>
       <Footer style={{ textAlign: "center" }}>
-        Expense Tracker @ React Dersleri 2021
+        Expense Tracker @ Alzmoth 2021
       </Footer>
     </Layout>
   );

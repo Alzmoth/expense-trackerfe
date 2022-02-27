@@ -24,18 +24,18 @@ function AppHeader() {
         {data.username ? (
           <React.Fragment>
             <Menu.Item key="/records">
-              <Link to="/records">Harcama Kayıtları</Link>
+              <Link to="/records">Expense Records</Link>
             </Menu.Item>
             <Menu.Item key="/categories">
-              <Link to="/categories">Kategori</Link>
+              <Link to="/categories">Category</Link>
             </Menu.Item>
             <Menu.Item key="/logout">
-              <Link to="/logout">Çıkış</Link>
+              <Link to="/logout">Exit</Link>
             </Menu.Item>
           </React.Fragment>
         ) : loading ? null : (
           <Menu.Item key="/login">
-            <Link to="login">Giriş</Link>
+            <Link to="login">Login</Link>
           </Menu.Item>
         )}
       </Menu>
