@@ -1,4 +1,4 @@
-## Demo URUL
+## Demo URL
 
 [https://expense-trackerfe.vercel.app](https://expense-trackerfe.vercel.app)
 
